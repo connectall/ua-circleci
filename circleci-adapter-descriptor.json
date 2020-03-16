@@ -1,0 +1,71 @@
+{
+    "version": 0.1,
+    "displayName": "circleci adapter",
+    "type": "circleci",
+    "logo": "circleci.png",
+    "logoSmall": "circleci-small.png",
+    "metadata": [{
+        "name": "Type",
+        "dependent": false,
+        "dependentMetadata": null,
+        "values": [{
+            "id": "pipeline",
+            "name": "Pipeline",
+            "attributeName": null,
+            "referenceType": null,
+            "dependents": null,
+            "regex": false
+        }]
+    }, {
+        "name": "Project",
+        "dependent": false,
+        "dependentMetadata": null,
+        "values": [{
+            "id": "pipeline-test",
+            "name": "Pipeline Test",
+            "attributeName": null,
+            "referenceType": null,
+            "dependents": null,
+            "regex": false
+        }]
+    }],
+    "fields": [{
+        "id": "id",
+        "name": "Id",
+        "datatype": "String",
+        "values": null
+    }, {
+        "id": "branch",
+        "name": "Branch",
+        "datatype": "String",
+        "values": null
+    }, {
+        "id": "tag",
+        "name": "Tag",
+        "datatype": "String",
+        "values": null
+    }],
+    "loginOptions": [],
+    "idFieldName": "id",
+    "titleFieldName": "",
+    "projectFieldName": "Project",
+    "artifactFieldName": "Type",
+    "testStepsFieldName": "",
+    "changedDateFieldName": "updateDate",
+    "dateFormat": "yyyy-MM-dd",
+    "dateTimeFormat": "yyyy-MM-dd'T'HH:mm:ssZ",
+    "queryDateFormat": "",
+    "isISO8601DateFormat": "false",
+    "commentFieldName": "",
+    "commentFieldId": "",
+    "attachmentFieldName": "",
+    "attachmentFieldId": "",
+    "apiVersion": "1",
+    "callBackUrlConfigured": false,
+    "callBackUrls": [],
+    "apiProvider": "ExternalApplication",
+    "applicationType": null,
+    "urlDescription": "CircleCI endpoint: Ex: https://circleci.com",
+    "userNameDescription": "CircleCI Application Login",
+    "passwordDescription": "CircleCI Application Login Password"
+}
