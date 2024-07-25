@@ -1,4 +1,4 @@
-# connectall-circleci-adapter
+# ua-circleci
 Circle CI Adapter for ConnectALL
 
 
